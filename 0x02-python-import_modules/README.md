@@ -1,0 +1,1 @@
+this is a learning space for python import simple function from simple file
