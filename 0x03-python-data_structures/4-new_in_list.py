@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 
 
-def no_c(my_string):
+def new_in_list(my_list, idx, element):
     """
-    removes all characters 'c' and 'C' from s
+    Replaces an element in a list at a specific position
+    Without modifying the original list
     """
-    new_str = ""
-    for i in my_string:
-        if i not in "cC":
-            new_str += i
-    return (new_str)
+    if idx >= len(my_list) or idx < 0:
+        return (my_list)
+    new_list = my_list.copy()
+    new_list[idx] = element
+    return (new_list)
