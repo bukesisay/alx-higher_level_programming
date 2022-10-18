@@ -1,0 +1,1 @@
+this is learning enviroment for python everything is object
