@@ -1,0 +1,1 @@
+This is learning environment for inheritance in python
